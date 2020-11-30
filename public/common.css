@@ -66,3 +66,39 @@
      margin : 2px;
      margin-left: 3px;
  }
+
+ #para1 {
+     padding : 10px;
+     font-size: 20px;
+ }
+
+ .link {
+     font-size: 50px;
+     font-weight: bold;
+     padding : 5px;
+ }
+
+ .card-title{
+     margin-left: 20px;
+     padding: 20px;
+     font-size: 60px ;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .rowed {
+     height : 100%;
+     width : 150%;
+     padding: 40px;
+ }
+
+ #num{
+     padding : 12px;
+     margin:2px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #idd {
+    padding : 12px;
+    margin:2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
