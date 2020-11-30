@@ -1,0 +1,48 @@
+.navbar {
+    position: sticky;
+    top : 0px;
+    z-index : 1;
+}
+
+.goody {
+    height : 400px;
+   
+    width : 100% ;
+    background-image: url(photo.jpg);
+   
+   
+   
+}
+
+
+
+.cont {
+    height : 5000px;
+}
+
+.footer {
+    position: sticky;
+    bottom : 0px;
+}
+
+.nice1 {
+    position : absolute;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 530px;
+
+}
+.head{
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.foot {
+    height : 120px;
+    width : 100%;
+    border : .5px solid black;
+}
+ .par {
+     font-size: 18px;;
+ }
