@@ -1,20 +1,67 @@
-
+<div class = 'row'>
+    <div class="col s6 okk">
+        <div class="col s12 m6 ">
+        <div class="card blue-grey darken-1 kk">
+            <div class="card-content white-text">
+            <span class="card-title int" style ="font-size: 50px;"><i class="far fa-business-time into"></i>INTRO</span><hr>
+            <p class = 'intr'style ="font-size: 25px;">A passionate full-stack developer with sound technical skills of both Front-End and Back-End.  
+           Commited to ensuring the team succeeds with all tasks , duties and projects.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="col s6 okk">
+        <div class="col s12 m6 ">
+        <div class="card blue-grey darken-1 kk">
+            <div class="card-content white-text">
+            <span class="card-title ski" style ="font-size: 50px;"><i class="fas fa-align-left skil"></i>SKILLS</span><hr>
+            <p style ="font-size: 20px;"> # HTML.<br>
+               # CSS.<br>
+               # JAVASCRIPT.<br>
+               # Web Servers in NODE.JS.<br>
+               # EXPRESS.JS.<br>
+               # REST API.<br>
+               # MYSQL/SEQUELIZE.<br>
+               # GIT/GITHUB<br>
+               # SOCKETS.IO ..</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s11">
+      <div class="card blue-grey darken-1 cards">
+        <div class="card-content white-text card3">
+          <span class="card-title hob" style ="font-size: 50px;"><i class="fas fa-university educ"></i>EDUCATION</span><hr>
+          <p style ="font-size: 30px;">I am currently in 2nd year of my college , pursuing B.Tech from LNMIIT (2019-2023).
+          </p><br><br><br>
+          <span class="card-title hob" style ="font-size: 50px;"><i class="fas fa-gamepad gam"></i>HOBBIES</span><hr>
+          <p style ="font-size: 35px;">--CRICKET.<br>
+            --WEB SERIES.<br>
+            --DOCUMENTARIES.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 <div class = 'foot'>
 <p class = 'par'>Please do provide your valuable feedback.</p>
-<br>
+
 
    
     
-    <div class="row">
+    <div class="row feed">
         <div class="col s12">
         <div class="row">
             <div class="input-field col s12">
-            <input type="text" id="autocomplete-input" class="autocomplete">
+            <input type="text" id="autocomplete-input" class="autocomplete inppp"><br>
             <label for="autocomplete-input">Opinions/Feedback</label>
-            </div>
-        </div>
-        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <div style ="padding: 8px;">
+        <button class="btn waves-effect waves-light btn1" type="submit" name="action">Submit
         </button>
+        </div>
+        
         </div>
         
 
@@ -22,3 +69,11 @@
    
 </div>
 </div>
+
+<script>
+    let btnn = $('.btn1').click(() => {
+        $.post('/feedback' , {
+            feedbacks : $('.inppp').val()
+        })
+    })
+</script>

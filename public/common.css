@@ -1,3 +1,6 @@
+body {
+    background-color: cornsilk;
+}
 .navbar {
     z-index : 1;
  
@@ -11,6 +14,7 @@
     opacity : 1;
     background-size: cover;
     width : 100% ;
+    margin-bottom : 25px;
 }
    
 .goody {
@@ -48,14 +52,14 @@
 }
 
 .foot {
-    height : 180px;
+    height : 260px;
     width : 95%;
-    border : .5px solid black;
+    border : 2px solid black;
     margin : 20px;
 }
    
  .par {
-     font-size: 18px;
+     font-size: 20px;
      padding: 5px;
      margin:5px;
      margin-top: 40px;
@@ -78,7 +82,7 @@
      padding : 5px;
  }
 
- .card-title{
+ .conta{
      margin-left: 20px;
      padding: 20px;
      font-size: 60px ;
@@ -102,3 +106,85 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
+
+ .kk{
+     width: 210%;
+     min-width: 100%;
+     padding : 10px;
+     margin-top: 10px;
+     margin : 5px;
+ }
+
+ .li{
+     padding:20px;
+ }
+
+ .cl {
+     padding: 15px;
+ }
+ .ml {
+    padding: 15px;
+}
+.cnt {
+    padding: 30px;
+}
+
+.int {
+   font-family: serif;
+   padding : 15px;
+   margin : 2px;
+}
+
+.intr {
+    font-family: sans-serif;
+}
+
+.into {
+    padding : 20px;
+}
+
+.ski{
+    font-family: serif;
+    padding : 15px;
+    margin : 2px;
+ }
+
+ .skil {
+    padding : 25px;
+ }
+
+ .card3 {
+     width : 100%;
+     max-width : 210%;
+     padding : 15px;
+     margin : 10px;
+   
+ }
+ .hob{
+    font-family: serif;
+    padding : 20px;
+    margin : 2px;
+   
+ }
+ .cards{
+    margin-left: 30px;
+ }
+ 
+ .educ {
+     padding: 40px;
+ }
+
+ .gam {
+    padding: 40px;
+}
+
+.btn1{
+    font-size: 20px;
+    width : 110px;
+    height : 40px;
+
+}
+
+.feed {
+    padding : 20px;
+}
