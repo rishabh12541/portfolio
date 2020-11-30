@@ -1,15 +1,37 @@
-
+<div id ='div1' class = 'photo'>
     <nav class = 'goody'>
+       
        
             <div class="nav-wrapper">
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="/">HOME</a></li>
-                <li><a href = 'contacts.html'>CONTACT</a></li>
+                <li class = 'ok'><a class = 'lists' data-component = 'homepage' href = '#'>HOME</a></li>
+                <li class = 'ok'><a class = 'lists' data-component = 'contacts' href = '#'>CONTACT</a></li>
             </ul>
-                <div class = 'nice1' >
-                    <h4 class = 'head'>I'm RISHABH BINDAL.</h3>
-                    <h4 class = 'head'>A Full-Stack Developer.</h3>
-                </div>
+                
             </div>
+       
+           
         
     </nav>
+    <div class = 'nice1' >
+        <h4  style = " color : white;" class = 'head'>I'm RISHABH BINDAL.</h3>
+        <h4 style = " color : white;" class = 'head'>A Full-Stack Developer.</h3>
+    </div>
+</div>
+
+    
+    <script>
+        
+    let navlin = $('#nav-mobile .lists')
+
+    navlin.click((ev) => {
+        console.log('hello')
+        let url = `/${$(ev.target).attr('data-component')}.html`
+        console.log(url)
+        $('#div1').addClass('photo')
+        $('h4').addClass('head')
+        $('.cont').load(url)
+        
+
+   
+})</script>
