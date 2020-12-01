@@ -21,7 +21,7 @@ app.post('/' , async(req , res) => {
 
 db.sync()
 .then(() => {
-    app.listen(3456 , () => {
+    app.listen(PORT , () => {
         console.log("Port has started")
     })
 })
