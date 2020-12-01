@@ -24,7 +24,7 @@ catch(err) {
 
 
 
-db.sync({force : true})
+db.sync()
 .then(() => {
     app.listen(PORT)
 })
