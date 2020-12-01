@@ -77,15 +77,13 @@
 <script>
      $('.btn1').click(() => {
          if(!($('.inppp').val())){
-             return 
+             return console.error('Type something')
          }
          else {
             
             $.post('/' , {
             feedbacks : $('.inppp').val()
         } , function () {
-
-            console.log('great')
             swal({
                 title: "DONE!",
                 text: "Thank you for your Feedback.",
