@@ -1,11 +1,15 @@
 const Sequelize = require('sequelize')
 
-
-
-    const db = new Sequelize ('feedback' , 'feed' , 'passfe' , {
-        dialect : 'mysql' 
-    })
-
+LET db ;
+    if(process.env.DATABASE_URL){
+        db = new Sequelize(process.env.DATABASE_URL)
+    }else{
+        db = new Sequelize ('feedback' , 'feed' , 'passfe' , {
+            dialect : 'mysql' 
+        })
+    
+    }
+    
 
 
 
