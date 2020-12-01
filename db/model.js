@@ -1,13 +1,11 @@
 const Sequelize = require('sequelize')
 
-if(DATABASE_URL){
-    const db = new Sequelize (DATABASE_URL)
-}
-else{
+
+
     const db = new Sequelize ('feedback' , 'feed' , 'passfe' , {
-        dialect : 'mysql' ,
+        dialect : 'mysql' 
     })
-}
+
 
 
 
