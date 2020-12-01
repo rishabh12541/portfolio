@@ -71,9 +71,26 @@
 </div>
 
 <script>
-    let btnn = $('.btn1').click(() => {
-        $.post('/feedback' , {
+     $('.btn1').click(() => {
+         if(!($('.inppp').val())){
+             return 
+         }
+         else {
+            
+            $.post('/' , {
             feedbacks : $('.inppp').val()
+        } , function () {
+
+            console.log('great')
+            swal({
+                title: "DONE!",
+                text: "Thank you for your Feedback.",
+                icon: "success",
+                button: "OK",
+                });
+                $('.inppp').val(' ')
         })
+         }
     })
+        
 </script>

@@ -16,11 +16,16 @@ body {
     width : 100% ;
     margin-bottom : 25px;
 }
+
+.cont {
+    z-index: 1;
+}
    
 .goody {
     background-color: darkgrey;
-    position : sticky ;
+    position : fixed ;
     top : 0px;
+    z-index: 1;
 }
     
 
@@ -45,6 +50,7 @@ body {
 
 }
 .head{
+    z-index: 1;
     font-weight: bolder;
     font-style: oblique;
     font-variant: small-caps;
@@ -92,6 +98,7 @@ body {
      height : 100%;
      width : 150%;
      padding: 40px;
+     margin-top: 50px;
  }
 
  #num{

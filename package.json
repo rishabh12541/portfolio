@@ -13,6 +13,7 @@
     "bulma": "^0.9.1",
     "express": "^4.17.1",
     "materialize-css": "^1.0.0-rc.2",
+    "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
   }
 }
